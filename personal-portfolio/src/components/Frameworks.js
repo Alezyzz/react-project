@@ -8,7 +8,7 @@ import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 
-export const Skills = () => {
+export const Frameworks = () => {
     const responsive = {
       superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -35,7 +35,7 @@ export const Skills = () => {
               <div className="row">
                   <div className="col-12">
                       <div className="skill-bx wow zoomIn">
-                          <h2>Programming Languages</h2>
+                          <h2>Frameworks</h2>
                           <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                               <div className="item">
                                   <img src={python} alt="Image" />
