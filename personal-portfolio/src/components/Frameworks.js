@@ -1,6 +1,6 @@
-import python from "../assets/img/Python.png";
-import csharp from "../assets/img/Csharp.png";
-import go from "../assets/img/Go.png";
+import django from "../assets/img/django.png";
+import react from "../assets/img/React.png";
+import vue from "../assets/img/Vue.js.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -38,16 +38,19 @@ export const Frameworks = () => {
                           <h2>Frameworks</h2>
                           <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                               <div className="item">
-                                  <img src={python} alt="Image" />
-                                  <h5>Python</h5>
+                                  <img src={vue} alt="Image" />
+                                  <h5>Vue.js</h5>
                               </div>
                               <div className="item">
-                                  <img src={csharp} alt="Image" />
-                                  <h5>C#</h5>
+                                  <img src={react} alt="Image" />
+                                  <h5>React</h5>
                               </div>
                               <div className="item">
-                                  <img src={go} alt="Image" />
-                                  <h5>Go</h5>
+                                  <img src={django} alt="Image" />
+                                  <h5>Django</h5>
+                              </div>
+                              <div className="item">
+                                  <h5>Razor Pages</h5>
                               </div>
                           </Carousel>
                       </div>
